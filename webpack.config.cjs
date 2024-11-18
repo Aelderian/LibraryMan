@@ -1,11 +1,11 @@
-import path from 'path';
+const path = require('path');
 
-export default {
+module.exports = {
   mode: 'development', // or 'production'
-  entry: './src/main.jsx', // Your entry point
+  entry: './src/main.jsx',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(new URL(import.meta.url).pathname, 'dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
