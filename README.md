@@ -10,6 +10,7 @@ Checkout [Backend](https://github.com/ajaynegi45/LibraryMan-API) Repository
 ## Table of Contents
 
 - [Library 📚📖](#library-)
+    - [Design Resources:](#design-resources)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Key Features](#key-features)
@@ -19,6 +20,7 @@ Checkout [Backend](https://github.com/ajaynegi45/LibraryMan-API) Repository
     - [Getting Started for Developers](#getting-started-for-developers)
   - [Contact](#contact)
   - [Acknowledgements](#acknowledgements)
+    - [Stargazers](#stargazers)
   - [License](#license)
 
 ## Overview
@@ -118,7 +120,7 @@ This project wouldn't be possible without the contributions of our amazing commu
     </picture>
 <!--   </a> -->
 </p>
-
+.
 
 ## License
 
