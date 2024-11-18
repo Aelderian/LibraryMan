@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from "../assets/images/logo.png";
-import Gradient from "../assets/images/mesh-gradient.png";
+// import logo from "../assets/images/logo.png";
+// import Gradient from "../assets/images/mesh-gradient.png";
 import "../assets/styles/Login.css"
-import google from "../assets/svg/google.svg"
+// import google from "../assets/svg/google.svg"
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 
