@@ -1,9 +1,8 @@
-module.exports = {
+export default {
   mode: 'development', // or 'production'
-  entry: './src/index.js', // or the main entry file of your project
+  entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/dist'
+    path: new URL('./dist', import.meta.url).pathname
   },
-  // other configurations...
 };
