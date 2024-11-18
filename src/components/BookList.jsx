@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useGlobalContext } from "../Context.jsx";
 import '../assets/styles/BookList.css';
 import { Link } from "react-router-dom";
-import loadingGIF from "/loading.gif";
+import loadingGIF from "../assets/gif/output-onlinegiftools.gif";
 import bookCover from "../assets/images/BookCoverunavailable.jpg";
 
 const BookList = () => {
