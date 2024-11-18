@@ -1,11 +1,11 @@
-const path = require('path');
+import path from 'path';
 
-module.exports = {
+export default {
   mode: 'development', // or 'production'
-  entry: './src/main.jsx',
+  entry: './src/main.jsx', // Your entry point
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'), // `__dirname` works here as we use CommonJS syntax
+    path: path.resolve(new URL(import.meta.url).pathname, 'dist'),
   },
   module: {
     rules: [
@@ -13,7 +13,7 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: 'babel-loader', // Use babel-loader to transpile JS/JSX files
         },
       },
     ],
